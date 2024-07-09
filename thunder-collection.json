@@ -1,0 +1,63 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "ShortUrlApi",
+    "collectionId": "7ea42b65-e6e0-4765-8bf8-8fb082aae4bd",
+    "dateExported": "2024-07-09T23:11:42.375Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "56d2a42f-da86-4d77-a16e-69abb8924279",
+            "colId": "7ea42b65-e6e0-4765-8bf8-8fb082aae4bd",
+            "containerId": "",
+            "name": "GenerateUrl",
+            "url": "https://url-shorter.test/api/generate-url",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-07-09T22:10:39.503Z",
+            "modified": "2024-07-09T22:28:13.541Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"url\": \"https://a-hussein.netlify.app\",\n  \"expires_time\": 300\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "b571db53-1342-403d-baca-75008b169ef4",
+            "colId": "7ea42b65-e6e0-4765-8bf8-8fb082aae4bd",
+            "containerId": "",
+            "name": "RemoveUrl",
+            "url": "https://url-shorter.test/api/remove-url",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2024-07-09T22:10:48.378Z",
+            "modified": "2024-07-09T22:29:13.999Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"key\": \"L0pwrN\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "0qSsIYfZt0nKmDo0ErQ1E8Z9eUA6Wle4quqK9zCemevJQptavB4xX7DEL5Uy5oJwzqNxxA0YvfdXdKwbZ5r7EA"
+}
